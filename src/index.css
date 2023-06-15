@@ -22,6 +22,21 @@
     @apply  font-fontOpen text-[#00252e] text-[18px] text-center py-[2rem]
             xl:my-[1.5rem]  xl:text-start
   }
+
+  .card-main{
+    @apply  justify-between items-center  border-[6px] border-[#ebfbff] rounded-xl drop-shadow-sm shadow-[#ff52bf]   my-[1rem] pl-[10%] py-[4rem]
+  }
+  .h1-main{
+    @apply  font-fontPoppins  font-semibold text-[1.7rem] text-center
+            xl:text-start xl:text-[2.5rem]          
+  }
+  .p-main{
+    @apply  font-fontOpen text-[#808d99] text-[18px] text-center py-[1rem]
+     xl:text-start
+  }
+  .pl-main{
+    @apply  w-[45%]
+  }
 }
 
 
