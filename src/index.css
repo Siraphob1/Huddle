@@ -1,9 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@600&family=Commissioner:wght@400;500;700&family=DM+Serif+Display&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Fugaz+One&family=Hanken+Grotesk:wght@500&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=League+Spartan&family=Montserrat:wght@100&family=Nunito:wght@200&family=Open+Sans:wght@400;700&family=Outfit&family=Overpass:wght@100;300;600&family=Poppins:wght@600&family=Ubuntu:wght@400;500;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+  .btn-try{
+    @apply  
+            lg:px-[3rem] lg:py-[0.8rem] lg:bg-white lg:rounded-full lg:drop-shadow-md
+  }
+  .btn-getstart{
+
+  }
+}
+
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+
+:root{
+  --c-Pink: hsl(322, 100%, 66%);
+
+  --c-Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --c-Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --c-Grayish-Blue: hsl(208, 11%, 55%);
+
+  --ff-Poppins:'Poppins', sans-serif;
+  --ff-Open:'Open Sans', sans-serif;
+
+  --fs:18px
+
+  --fw-Poppins:600
+  --fw-Open-s:400
+  --fw-Open-m:700
 }
