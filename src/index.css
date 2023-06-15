@@ -6,11 +6,21 @@
 
 @layer components{
   .btn-try{
-    @apply  
-            lg:px-[3rem] lg:py-[0.8rem] lg:bg-white lg:rounded-full lg:drop-shadow-md
+    @apply  font-fontOpen font-bold text-[0.8rem] px-[2rem] py-[0.2rem] bg-white rounded-full drop-shadow-md
+            xl:px-[3rem] xl:py-[0.8rem]   
   }
-  .btn-getstart{
-
+  .btn-getstart{ 
+    @apply  text-white font-fontOpen  px-[4rem] py-[1rem] bg-[#ff52bf] rounded-full drop-shadow-md  mb-[3rem]
+            xl:mb-0
+  }
+  .h1-header{
+  @apply  font-fontPoppins font-semibold text-[1.7rem] text-center
+          xl:text-start xl:text-[2.5rem]
+          
+  }
+  .p-header{
+    @apply  font-fontOpen text-[#00252e] text-[18px] text-center py-[2rem]
+            xl:my-[1.5rem]  xl:text-start
   }
 }
 
@@ -23,11 +33,11 @@
 
 
 :root{
-  --c-Pink: hsl(322, 100%, 66%);
+  --c-Pink: #ff52bf;
 
-  --c-Very-Pale-Cyan: hsl(193, 100%, 96%);
-  --c-Very-Dark-Cyan: hsl(192, 100%, 9%);
-  --c-Grayish-Blue: hsl(208, 11%, 55%);
+  --c-Very-Pale-Cyan: #ebfbff;
+  --c-Very-Dark-Cyan: #00252e;
+  --c-Grayish-Blue: #808d99;
 
   --ff-Poppins:'Poppins', sans-serif;
   --ff-Open:'Open Sans', sans-serif;
