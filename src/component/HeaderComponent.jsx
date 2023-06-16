@@ -9,7 +9,7 @@ const HeaderComponent = () => {
     <header className=" relative bg-[#ebfbff] ">
         <img src={bghero_desktop} alt="bghero_desktop" className="hidden w-full xl:block"/>
         <img src={bghero_mobile} alt="bghero_mobile" className=" w-full xl:hidden"/>
-        <div    className=" absolute top-0 left-0 w-full h-full px-[1rem] py-[2rem] 
+        <div    className=" absolute top-0 left-0 w-full h-full px-[1rem] pt-[2rem] 
                             lg:px-[4rem] xl:px-[5rem] xl:py-[3rem]">
             <section className="flex justify-between items-center">
                 <a href="#" className=" w-[100px] h-auto xl:w-auto"><img src={logo} alt="logo" /></a>
