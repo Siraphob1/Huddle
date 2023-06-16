@@ -6,12 +6,14 @@
 
 @layer components{
   .btn-try{
-    @apply  font-fontOpen font-bold text-[0.8rem] px-[2rem] py-[0.2rem] bg-white rounded-full drop-shadow-md
-            xl:px-[3rem] xl:py-[0.8rem]   
+    @apply  font-fontOpen font-bold text-[0.8rem] px-[2rem] py-[0.2rem] bg-white rounded-full drop-shadow-md 
+            xl:px-[3rem] xl:py-[0.8rem]  
+            active:opacity-60 
   }
   .btn-getstart{ 
-    @apply  text-white font-fontOpen  px-[4rem] py-[1rem] bg-[#ff52bf] rounded-full drop-shadow-md  
+    @apply  text-white font-fontOpen  px-[4rem] py-[1rem] bg-[#ff52bf] rounded-full drop-shadow-md 
             xl:mb-0
+            active:opacity-50
   }
   .h1-header{
   @apply  font-fontPoppins font-semibold text-[1.7rem] text-center
@@ -41,6 +43,28 @@
             xl:w-[45%] 
             
   }
+  .allsec-footer{
+    @apply  mb-[2rem] xl:mb-0
+  }
+  .sec1-footer{
+    @apply  font-fontOpen text-[#ebfbff] max-w-[400px]   flex justify-between mb-[1.5rem]
+    xl:w-[400px]
+  }
+ 
+  .div-footer{
+    @apply  w-[300px] xl:w-[350px]
+  }
+  .sec2-3-footer{
+    @apply mb-[1rem] block
+            
+  }
+  .sec2-3nav-footer{
+    @apply  hover:border-b border-white
+  }
+  .i-footer{
+    @apply text-white text-[1rem] border border-white rounded-full w-auto h-auto p-[0.5rem] mb-[1.5rem] mx-[0.5rem] inline-block
+            hover:text-[#ff52bf] hover:border-[#ff52bf]
+  }
 }
 
 
@@ -67,3 +91,18 @@
   --fw-Open-s:400
   --fw-Open-m:700
 }
+
+.i-footer{
+  position: relative;
+}
+/* .i-footer::after{
+  border: 1px solid white;
+  border-radius: 50%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 1px;
+  transform: translate(-50%,-50%);
+} */
