@@ -10,7 +10,7 @@
             xl:px-[3rem] xl:py-[0.8rem]   
   }
   .btn-getstart{ 
-    @apply  text-white font-fontOpen  px-[4rem] py-[1rem] bg-[#ff52bf] rounded-full drop-shadow-md  mb-[3rem]
+    @apply  text-white font-fontOpen  px-[4rem] py-[1rem] bg-[#ff52bf] rounded-full drop-shadow-md  
             xl:mb-0
   }
   .h1-header{
@@ -24,18 +24,22 @@
   }
 
   .card-main{
-    @apply  justify-between items-center  border-[6px] border-[#ebfbff] rounded-xl drop-shadow-sm shadow-[#ff52bf]   my-[1rem] pl-[10%] py-[4rem]
+    @apply  justify-between items-center  border-[1px] border-[#ebfbff] rounded-xl  shadow-md drop-shadow-lg    my-[1rem]  py-[4rem]
+            w-[90%]
+            xl:w-[100%] xl:pr-[1rem] xl:pl-[10%]
   }
   .h1-main{
-    @apply  font-fontPoppins  font-semibold text-[1.7rem] text-center
-            xl:text-start xl:text-[2.5rem]          
+    @apply  font-fontPoppins  font-semibold text-[1.5rem] text-center pt-[4rem]
+            xl:text-start xl:text-[2.5rem]   xl:pt-0       
   }
   .p-main{
-    @apply  font-fontOpen text-[#808d99] text-[18px] text-center py-[1rem]
-     xl:text-start
+    @apply  font-fontOpen text-[#808d99]  text-center py-[1rem]
+     xl:text-start xl:text-[18px]
   }
-  .pl-main{
-    @apply  w-[45%]
+  .padding-main{
+    @apply  w-[87%]
+            xl:w-[45%] 
+            
   }
 }
 
