@@ -1,5 +1,7 @@
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
+[Linkpreview](https://648c2c841ebecc529add5c81--hilarious-sfogliatella-7cd043.netlify.app/)
+
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
