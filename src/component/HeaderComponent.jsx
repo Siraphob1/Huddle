@@ -23,7 +23,7 @@ const HeaderComponent = () => {
                     <p className="p-header"> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
                         Create connections with your users as you engage in genuine discussion. 
                     </p>
-                    <button className="btn-getstart">Get Started For Free</button>
+                    <button className="btn-getstart mb-[4rem] xl:mb-0">Get Started For Free</button>
                 </section>
                 <section className=" w-[100%] xl:w-[55%]">
                     <img src={mockups} alt="mockups" />
